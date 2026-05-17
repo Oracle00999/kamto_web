@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.voltedge-hero-slide {
+  animation: voltedgeHeroLoop 8s infinite;
+  opacity: 0;
+}
+
+@keyframes voltedgeHeroLoop {
+  0% {
+    opacity: 0;
+  }
+
+  8% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 1;
+  }
+
+  52% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .voltedge-hero-slide {
+    animation: none;
+  }
+
+  .voltedge-hero-slide:first-child {
+    opacity: 1;
+  }
+}
