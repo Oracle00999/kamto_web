@@ -4,6 +4,7 @@ import Footer from "./footer";
 import Hero from "./hero";
 import Navbar from "./navbar";
 import Products from "./products";
+import RequestCall from "./requestCall";
 import Services from "./services";
 import Values from "./values";
 import WhatsAppFloat from "./whatsappFloat";
@@ -18,6 +19,7 @@ export default function Layout() {
         <Services />
         <Products />
         <Values />
+        <RequestCall />
         <Contact />
       </main>
       <Footer />
