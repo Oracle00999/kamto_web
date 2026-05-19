@@ -1,44 +1,5 @@
 import { useMemo, useState } from "react";
-import ChlorideUKFireAlarm from "../assets/Chloride-UK-Fire-Alarm-Control.jpg";
-
-import UKFireAlarmControlPanel from "../assets/Chloride-UK-Fire-Alarm.jpg";
-
-const products = [
-  {
-    id: "ChlorideUKFireAlarm",
-    name: "CHLORIDE UK OPTICAL SMOKE ALARM",
-    category: "Smart Security",
-    image: ChlorideUKFireAlarm,
-    description:
-      "The Chloride UK Smoke Detector is a high-performance fire detection device designed to provide early warning against smoke and potential fire outbreaks in residential, commercial, and industrial environments. Engineered with advanced sensing technology, this detector quickly identifies smoke particles in the air and instantly triggers the fire alarm system to enhance safety and emergency response. Its compact and modern design allows seamless ceiling installation while blending perfectly with different interior spaces. Built with durable materials and reliable electronic components, the detector ensures long-lasting performance and dependable fire protection.The device features a sensitive smoke detection chamber, LED status indicator, and test functionality for easy maintenance and system monitoring. It is ideal for use in offices, hotels, schools, warehouses, shopping malls, hospitals, and smart buildings where fire safety is a top priority.",
-    features: [
-      "Fast and accurate smoke detection",
-      "Early fire warning system",
-      "LED status and alarm indication",
-      "Easy installation and maintenance",
-      "Suitable for commercial and residential applications",
-      "Stable and dependable performance",
-      "Reliable and durable construction",
-    ],
-  },
-  {
-    id: "Chloride-UK-Fire-Alarm-Control-Panel",
-    name: "CHLORIDE UK FIRE ALARM CONTROL PANEL",
-    category: "Smart Security",
-    image: UKFireAlarmControlPanel,
-    description:
-      "The Chloride UK Fire Alarm Control Panel is a reliable and intelligent fire detection and alarm management system designed to provide maximum safety for residential, commercial, and industrial buildings. Built with a durable metal enclosure and user-friendly interface, this panel ensures quick fire detection, alarm notification, and efficient emergency response.It features multiple fire zones for accurate fault and fire location identification, allowing users to easily monitor and control connected smoke detectors, heat detectors, manual call points, and sounders. The panel includes clearly labeled LED indicators for power status, fire alerts, system faults, disablement, and battery conditions, ensuring easy system monitoring at all times.The control panel is equipped with essential operational buttons such as Reset, Silence, Evacuate, and Control Enable, enabling fast emergency handling during fire incidents. Its compact and professional design makes it suitable for offices, schools, hotels, warehouses,",
-    features: [
-      "Multiple fire zone monitoring",
-      "Fast and accurate fire detection",
-      "LED status indicators for system monitoring",
-      "Manual evacuation and alarm silence controls",
-      "Backup battery support for power failure protection",
-      "Easy installation and maintenance",
-      "Suitable for commercial and industrial fire safety systems",
-    ],
-  },
-];
+import products from "../data/products";
 
 const categories = [
   "All",
