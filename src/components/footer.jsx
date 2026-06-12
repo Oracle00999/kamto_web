@@ -88,10 +88,32 @@ export default function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 flex max-w-7xl flex-col gap-5 border-t border-white/10 pt-5 sm:flex-row sm:items-center sm:justify-between">
-        <p className="text-xs font-semibold text-white/52">
-          Copyright &copy; 2026 VOLTEDGE AUTOMATED SYSTEMS. All rights
-          reserved.
-        </p>
+        <div className="space-y-2 text-xs font-semibold">
+          <p className="text-white/52">
+            Copyright &copy; 2026 VOLTEDGE AUTOMATED SYSTEMS. All rights
+            reserved.
+          </p>
+          <p className="text-white/52">
+            Website developed by{" "}
+            <a
+              href="https://wa.me/2349095710097"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#f2b84b] transition hover:text-white"
+            >
+              Tony
+            </a>
+            <span className="mx-2 text-white/25">|</span>
+            <a
+              href="https://wa.me/2349095710097"
+              target="_blank"
+              rel="noreferrer"
+              className="transition hover:text-white"
+            >
+              Contact via WhatsApp
+            </a>
+          </p>
+        </div>
         <div className="flex items-center gap-3">
           {socialLinks.map((item) => (
             <a

@@ -27,6 +27,22 @@
   }
 }
 
+.whatsapp-prompt {
+  animation: whatsappPromptIn 0.45s ease-out both;
+}
+
+@keyframes whatsappPromptIn {
+  from {
+    opacity: 0;
+    transform: translateX(12px) translateY(6px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale(1);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .voltedge-hero-slide {
     animation: none;
@@ -34,5 +50,9 @@
 
   .voltedge-hero-slide:first-child {
     opacity: 1;
+  }
+
+  .whatsapp-prompt {
+    animation: none;
   }
 }
